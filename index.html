@@ -12,49 +12,92 @@
     <meta property="og:description" content="Fullstack developer based in Tokyo. Come and see what new projects I've been working on." />
     <meta property="og:image" content="assets/images/" />
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/stylesheets/style.css">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body>
-    <div class="container">
-      <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url(assets/images/sunset.JPG);">
-        <div class="centered-container">
-          <div class="centered-contents">
-            <div>
-              <h1>Steven Vasquez</h1>
-              <h2>Fullstack Developer</h2>
-              <h2>Ruby on Rails | JavaScript</h2>
-            </div>
+    <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url(assets/images/sunset.JPG);">
+      <div class="centered-container">
+        <div class="centered-contents">
+          <div>
+            <h1>Steven Vasquez</h1>
+            <h2>Fullstack Developer</h2>
+            <h2>Ruby on Rails | JavaScript</h2>
           </div>
         </div>
       </div>
+    </div>
+    <div class="container">
       <div class="project-container">
         <div class="centered-container">
-          <h2>A little about me</h2>
+          <h3>A little about me</h3>
           <div class="centered-contents">
             <div>
               <img src="assets/images/profile.JPG" class="avatar" alt="avatar">
             </div>
             <div>
-              <p>Tokyo based Fullstack Developer originally from Brooklyn, NY</p>
+              <p>Tokyo based Fullstack Developer originally from Brooklyn, NY ...</p>
               <a href="#">Connect with me</a>
             </div>
           </div>
         </div>
         <div class="centered-container">
-          <h2>Projects</h2>
+          <h3>Projects</h3>
           <div class="project-container">
             <div class="project">
-              <h3>Chirpy</h3>
+              <div class="card mb-3" style="max-width: 1075px;">
+                <div class="row g-0">
+                  <div class="col-md-6 col-lg-5">
+                    <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                          aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                          aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                          aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="assets/images/chirpy.png" class="d-block w-100" alt="chirpy">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/images/chirpy2.png" class="d-block w-100" alt="chirpy2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/images/chirpy3.png" class="d-block w-100" alt="chirpy3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-7 border-start">
+                    <div class="card-body">
+                      <h5 class="card-title">Chirpy</h5>
+                      <p class="card-text">This is an app for parents to help filter out content that their children see online</p>
+                      <p class="card-text">Built a Chrome extension that connects to the Chirpy site </p>
+                      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="footer">
-        <p>Check me out</p>
-      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
       <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     </div>
   </body>

@@ -1,7 +1,7 @@
 .banner {
   color: white;
   background-size: cover;
-  background-position: 0px -204px;
+  background-position: center;
   padding: 150px 0;
   /* text-shadow: 0px 2px 3px rgb(34, 34, 34); */
   /* padding-bottom: 132px; */
@@ -20,18 +20,32 @@
   justify-content: center;
 }
 
-.centered-container h1 {
+.centered-container h1, h2 {
   font-family: "Gill Sans", sans-serif;
   font-size: 56px;
   margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-align: left;
+  font-weight: 600;
 }
 
-.centered-container h2 {
-  font-family: "Gill Sans", sans-serif;
+.centered-contents h2 {
   font-size: 32px;
-  margin: 0;
+  font-weight: 300;
 }
 
-.project-container {
-  display: flex
+.project{
+  /* background-color: aqua; */
+  /* padding: 24px; */
+}
+
+.project-details {
+  display: flex;
+}
+
+.project img {
+  height: 293px;
+  width: 461px;
+  margin-right: 24px;
 }
