@@ -1,6 +1,7 @@
 @import url(components/banner.css);
 @import url(components/avatar.css);
 @import url(components/footer.css);
+@import url(components/button.css);
 
 body {
   margin: 0;
@@ -9,6 +10,15 @@ body {
   line-height: 1.5;
   background-color: #F4F4F4;
   /* background-image: linear-gradient(180deg, #78a6e8 40%, #deb285 90%, #d8b492 110%); */
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+  color: white;
 }
 
 img {
