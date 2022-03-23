@@ -1,4 +1,4 @@
-.button {
+.button-green {
   font-size: 16px;
   color: #FFFFFF;
   padding: 8px 16px;
@@ -8,6 +8,16 @@
   background: black;
 }
 
-.button:hover {
+.button-green:hover {
   background: green;
+}
+
+#social-icon {
+  font-size: 30px;
+  color: black;
+  transition: .5s ease-in-out;
+}
+
+#social-icon:hover {
+  color: green;
 }
