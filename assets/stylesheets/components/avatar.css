@@ -4,7 +4,7 @@
   border-radius: 50%;
   margin-right: 24px;
   object-fit: cover;
-  object-position: 50% 21%;
+  object-position: 100% 20%;
 }
 
 @media screen and (max-width: 470px) {

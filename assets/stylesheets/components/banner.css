@@ -43,12 +43,13 @@
 #project {
   padding: 0 0 16px 0;
 }
-/* .project-details {
-  display: flex;
-}
 
-.project img {
-  height: 293px;
-  width: 461px;
-  margin-right: 24px;
-} */
+@media screen and (max-width: 470px) {
+  .centered-container {
+    text-align: center!important;
+  }
+
+  .centered-container h1, h2 {
+    text-align: center!important;
+  }
+}
