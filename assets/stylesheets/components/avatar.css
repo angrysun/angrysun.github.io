@@ -6,3 +6,9 @@
   object-fit: cover;
   object-position: 50% 21%;
 }
+
+@media screen and (max-width: 470px) {
+  .avatar {
+    display: none;
+  }
+}
