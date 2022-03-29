@@ -17,17 +17,9 @@
   /* background: green; */
 }
 
-#left {
-  align-items: flex-start;
-}
-
 .centered-contents {
   display: flex;
   justify-content: center;
-}
-
-.centered-contents a {
-  margin: 4px;
 }
 
 .centered-container h1, h2 {
@@ -48,13 +40,10 @@
   margin: 0;
 }
 
-
-.project{
-  /* background-color: aqua; */
-  /* padding: 24px; */
+#project {
+  padding: 0 0 16px 0;
 }
-
-.project-details {
+/* .project-details {
   display: flex;
 }
 
@@ -62,4 +51,4 @@
   height: 293px;
   width: 461px;
   margin-right: 24px;
-}
+} */
