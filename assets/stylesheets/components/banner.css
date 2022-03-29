@@ -26,8 +26,11 @@
   justify-content: center;
 }
 
+.centered-contents a {
+  margin: 4px;
+}
+
 .centered-container h1, h2 {
-  font-family: "Gill Sans", sans-serif;
   font-size: 56px;
   margin: 0;
   /* color: white; */
