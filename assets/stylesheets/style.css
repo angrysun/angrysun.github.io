@@ -9,10 +9,10 @@ body {
   line-height: 1.5;
   /* background-color: #9DC88D; */
   /* background-image: linear-gradient(180deg, #78a6e8 40%, #deb285 90%, #d8b492 110%); */
-  background-image: url(../images/background.jpeg);
+  background-image: url(../images/background-new.jpeg);
   background-repeat: round;
   /* background-position: top; */
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 a {
