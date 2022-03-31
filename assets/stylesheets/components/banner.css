@@ -14,7 +14,7 @@
   justify-content: center;
   align-items: center;
   padding: 24px;
-  /* background: green; */
+  margin-bottom: 2rem;
 }
 
 .centered-contents {
@@ -25,7 +25,6 @@
 .centered-container h1, h2 {
   font-size: 56px;
   margin: 0;
-  /* color: white; */
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   text-align: left;
   font-weight: 600;
@@ -47,9 +46,14 @@
 @media screen and (max-width: 470px) {
   .centered-container {
     text-align: center!important;
+    margin-bottom: 5rem;
   }
 
   .centered-container h1, h2 {
     text-align: center!important;
+  }
+
+  .centered-contents {
+    flex-wrap: wrap;
   }
 }

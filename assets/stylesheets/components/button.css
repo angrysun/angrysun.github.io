@@ -5,19 +5,51 @@
   border: 1px solid #FFFFFF;
   border-radius: 5px;
   transition: .5s ease-in-out;
-  background: black;
+  background: #33a58a;
 }
 
 .button-green:hover {
-  background: green;
+  background: #1F5F51;
 }
 
 #social-icon {
   font-size: 30px;
-  color: black;
+  color: #33a58a;
   transition: .5s ease-in-out;
 }
 
 #social-icon:hover {
-  color: green;
+  color: #1F5F51;
+}
+
+#devcon {
+  font-size: 30px;
+}
+
+#html:hover {
+  color: #e44d27;
+}
+
+#css:hover {
+  color: #3c8fc6;
+}
+
+#javascript:hover {
+  color: #efdc4f;
+}
+
+#rails:hover {
+  color: #cc0200;
+}
+
+#heroku:hover {
+  color: #6761a6;
+}
+
+#postgres:hover {
+  color: #346791;
+}
+
+#wordpress:hover {
+  color: #494949;
 }
