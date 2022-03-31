@@ -1,44 +1,68 @@
-@import url(components/banner.css);
 @import url(components/avatar.css);
 @import url(components/button.css);
 
+/* || General style */
 body {
   margin: 0;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  /* background-color: #9DC88D; */
-  /* background-image: linear-gradient(180deg, #78a6e8 40%, #deb285 90%, #d8b492 110%); */
   background-image: url(../images/background-new.jpeg);
   background-repeat: round;
-  /* background-position: top; */
-  /* background-attachment: fixed; */
 }
-
-a {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-a:hover {
-  color: white;
-}
-
-/* img {
-  vertical-align: middle;
-  border-style: none;
-} */
 
 p {
   font-family: "Montserrat", "Helvetica", "sans-serif";
   margin: 8px;
-  /* font-size: 15px; */
 }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Red Hat Display', sans-serif;
-  /* font-family: 'Patua One', cursive; */
 }
-/* .project-container {
-  background-image: linear-gradient(180deg, #78a6e8 40%, #deb285 90%, #d8b492 110%);
-} */
+
+/* || Page setup */
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  margin-bottom: 2rem;
+}
+
+.centered-contents {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-container h1, h2 {
+  font-size: 56px;
+  margin: 0;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-align: left;
+  font-weight: 600;
+}
+
+.centered-contents h2 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 470px) {
+  .centered-container {
+    text-align: center!important;
+    margin-bottom: 5rem;
+  }
+
+  .centered-container h1, h2 {
+    text-align: center!important;
+  }
+
+  .centered-contents {
+    flex-wrap: wrap;
+  }
+
+  #start {
+    order: -1;
+  }
+}
