@@ -2,6 +2,11 @@
 @import url(components/button.css);
 
 /* || General style */
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-size: 1rem;
@@ -9,6 +14,7 @@ body {
   line-height: 1.5;
   background-image: url(../images/background-new.jpeg);
   background-repeat: round;
+  position: relative
 }
 
 p {
