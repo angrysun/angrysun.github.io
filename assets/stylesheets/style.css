@@ -48,6 +48,10 @@ a:hover {
   justify-content: center;
 }
 
+.title-name {
+  line-height: 56px;
+}
+
 .centered-container h1, h2 {
   font-size: 56px;
   margin: 0;
